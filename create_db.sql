@@ -14,3 +14,15 @@ CREATE TABLE swelldata (
 );
 
 SELECT * FROM swelldata;
+
+
+-- Since the data types are float, query them like this:
+
+SELECT * FROM SwellData 
+WHERE latitude BETWEEN 7.10321 AND 7.10341 
+AND longitude BETWEEN 125.7189 AND 125.7191;
+
+
+SELECT * FROM SwellData 
+WHERE latitude BETWEEN 54.544487 AND 54.544687 
+AND longitude BETWEEN 10.227387 AND 10.227587;
